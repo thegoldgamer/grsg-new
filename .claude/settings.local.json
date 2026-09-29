@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__mcp-unity__get_scene_info",
+      "mcp__mcp-unity__execute_menu_item",
+      "mcp__mcp-unity__set_transform",
+      "Bash(ls C:\\\\Users\\\\gtost\\\\Downloads:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "WebFetch(domain:httpbin.org)",
+      "WebFetch(domain:youtube.com)",
+      "WebFetch(domain:www.youtube.com)",
+      "Bash(python3:*)",
+      "mcp__mcp-unity__create_scene",
+      "mcp__mcp-unity__add_asset_to_scene",
+      "mcp__mcp-unity__get_gameobject",
+      "mcp__mcp-unity__load_scene",
+      "mcp__mcp-unity__recompile_scripts",
+      "mcp__mcp-unity__get_console_logs",
+      "Bash(find D:\\\\Unity Projects\\\\Gold's Random Stuff Game\\\\Logs:*)",
+      "mcp__mcp-unity__batch_execute",
+      "mcp__mcp-unity__reparent_gameobject",
+      "mcp__mcp-unity__move_gameobject",
+      "mcp__mcp-unity__update_component",
+      "mcp__mcp-unity__save_scene",
+      "Bash(awk:*)",
+      "Bash(xargs grep:*)",
+      "Bash(grep:*)",
+      "Bash(find Assets:*)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\gtost\\Downloads",
+      "C:\\Users\\gtost"
+    ]
+  }
+}

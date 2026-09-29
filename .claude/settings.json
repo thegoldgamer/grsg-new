@@ -1,0 +1,19 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "http://localhost:4141",
+    "ANTHROPIC_AUTH_TOKEN": "dummy",
+
+    "ANTHROPIC_MODEL": "claude-haiku-4.6",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "claude-haiku-4.6",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "gemini-3.1-pro-preview",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "gpt-5.2-codex",
+    "ANTHROPIC_SMALL_FAST_MODEL": "gpt-5-mini",
+    "ANTHRPOPIC_SUBAGENT_MODEL": "gpt-5-mini",
+
+    "DISABLE_NON_ESSENTIAL_MODEL_CALLS": "1",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"
+  },
+  "permissions": {
+    "deny": []
+  }
+}
